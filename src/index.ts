@@ -117,6 +117,6 @@ export default {
 		if (responseAppMetadata.statusCode !== 200)
 			throw Error('Hubo un error al actualizar los datos de la app para el usuario: ' + responseAppMetadata.statusText);
 
-		return Response.redirect(`https://entrar.mivoz.uy/continue?state=${state}&sig=${user.sig}&sso=${user.sso}`, 301);
+		return Response.redirect(`https://entrar.mivoz.uy/continue?state=${state}&sig=${user.sig}&sso=${user.sso}&token=${token}`, 301);
 	},
 };

@@ -6,5 +6,6 @@ compatibility_flags = ["nodejs_compat"]
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 [vars]
 AUTH0_DOMAIN = "mivoz.auth0.com"
-MGMT_API_ACCESS_TOKEN = ""
+APP_CLIENT_ID = ""
+APP_CLIENT_SECRET = ""
 JWT_SECRET = ""
